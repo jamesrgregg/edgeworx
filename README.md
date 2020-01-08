@@ -7,7 +7,11 @@ iofogctl would not install on Ubuntu 14.04 LTS from the repo per the install ins
 
 Reference: [Quick Start](https://iofog.org/docs/1.3.0/getting-started/quick-start.html)
 
+Check iofogctl version info
+```
 docker run --rm --volume ${PWD}/target:/app jrgreggdevops/iofogctl iofogctl version
+```
+Output:
 ```
 iofogctl Unified Cli
 
