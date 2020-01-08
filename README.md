@@ -3,6 +3,8 @@ iofogctl is a CLI for the installation, configuration, and operation of ioFog Ed
 
 Docker image published at [jrgreggdevops/iofogctl](https://hub.docker.com/repository/docker/jrgreggdevops/iofogctl)
 
+iofogctl would not install on Ubuntu 14.04 LTS from the repo per the install instructions, so I created this image to test.
+
 Reference: [Quick Start](https://iofog.org/docs/1.3.0/getting-started/quick-start.html)
 
 docker run --rm --volume ${PWD}/target:/app jrgreggdevops/iofogctl iofogctl version
