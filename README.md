@@ -15,6 +15,7 @@ date: 2019-12-09T20:47:31+0000
 
 
 docker run --rm --volume ${PWD}/target:/app jrgreggdevops/iofogctl iofogctl
+```
      _       ____                 __  __
     (_)___  / __/___  ____  _____/ /_/ /
    / / __ \/ /_/ __ \/ __ `/ ___/ __/ /
@@ -58,3 +59,4 @@ Flags:
   -v, --verbose            Toggle for displaying verbose output of iofogctl
 
 Use "iofogctl [command] --help" for more information about a command.
+```
