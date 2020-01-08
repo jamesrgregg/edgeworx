@@ -1,6 +1,8 @@
 # edgeworx iofogctl
 iofogctl is a CLI for the installation, configuration, and operation of ioFog Edge Compute Networks (ECNs). It can be used to remotely manage multiple ECNs from a single host. It is built for an ioFog user and a DevOps engineer wanting to manage ECNs.
 
+Docker image published at [jrgreggdevops/iofogctl](https://hub.docker.com/repository/docker/jrgreggdevops/iofogctl)
+
 Reference: [Quick Start](https://iofog.org/docs/1.3.0/getting-started/quick-start.html)
 
 docker run --rm --volume ${PWD}/target:/app jrgreggdevops/iofogctl iofogctl version
